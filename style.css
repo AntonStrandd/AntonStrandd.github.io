@@ -29,6 +29,23 @@ body {
   text-align: center;
 }
 
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
 .tagline {
   font-size: 1.2rem;
   color: #ccc;
@@ -42,7 +59,7 @@ h2 {
 .project-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .project-card {
@@ -51,9 +68,6 @@ h2 {
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
   min-height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .project-gif {
@@ -93,4 +107,11 @@ h2 {
   text-align: center;
   padding: 2rem 0;
   font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
 }
