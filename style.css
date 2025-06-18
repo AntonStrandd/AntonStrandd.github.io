@@ -158,6 +158,31 @@ h2 {
   color: #ffffff;
 }
 
+.nav-logo {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #444;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-logo:hover {
+  background-color: #525252;
+  color: #fff;
+}
+
+.nav-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 0.5rem;
+  border: 2px solid white;
+}
+
 @media (max-width: 600px) {
   .profile-pic {
     width: 120px;
