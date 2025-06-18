@@ -7,6 +7,24 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <a href="#about" class="nav-link">About Me</a>
+
+      <div class="dropdown">
+        <a href="#" class="nav-link">Projects</button>
+        <div class="dropdown-menu">
+                <a href="AstroPlunder.html" class="dropdown-item">Astro Plunder</a>
+                <a href="project2.html" class="dropdown-item">Project 2</a>
+                <a href="project3.html" class="dropdown-item">Project 3</a>
+        </div>
+      </div>
+
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </div>
+  </nav>
+
   <header class="header">
     <div class="container header-content">
         <img src="FacebookAnton.jpg" alt="Anton Strand" class="profile-pic" />
@@ -17,14 +35,17 @@
     </div>
   </header>
 
-  <section class="about section">
+  <section id="about" class="about section">
     <div class="container">
       <h2>About Me</h2>
-      <p>Write a short bio about yourself here. Mention your focus, interests, or goals.</p>
+      <p>I'm a recent graduate in game development with focus on programming.
+         My experience comes from Unity and C#. 
+         I'm passionate about creating engaging, functional experiences and continuously expanding my technical skills.
+         What drives me the most is problemsolving,finding creative solutions to complex problems, and I'm always looking forward to learn something new. </p>
     </div>
   </section>
 
-  <section class="projects section">
+  <section id="projects" class="projects section">
     <div class="container">
       <h2>Projects</h2>
       <div class="project-grid">
@@ -36,7 +57,8 @@
           </p>
           <img src="AstroPlunder.gif" alt="Astro Plunder"  class="project-gif">
           <p><strong>Tech:</strong> C#, Unity</p>
-        <a href="https://pipeturn.itch.io/astro-plunder">Itch</a>
+        <a href="https://pipeturn.itch.io/astro-plunder">Itch.io</a> |
+          <a href="https://pipeturn.itch.io/astro-plunder">See more</a>
         </div>
         <div class="project-card">
           <h3>Project Title</h3>
@@ -54,7 +76,7 @@
     </div>
   </section>
 
-  <section class="skills section">
+  <section id="skills" class="skills section">
     <div class="container">
       <h2>Skills</h2>
       <ul class="skills-list">
@@ -64,7 +86,7 @@
     </div>
   </section>
 
-  <section class="contact section">
+  <section id="contact" class="contact section">
     <div class="container">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:strand.anton@hotmail.com">strand.anton@hotmail.com</a></p>
