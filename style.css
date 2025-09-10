@@ -27,7 +27,7 @@ body {
 }
 
 .header {
-  background: #222;
+  background: url("90559.jpg") no-repeat center center/cover;
   color: white;
   padding: 3rem 0;
   text-align: center;
